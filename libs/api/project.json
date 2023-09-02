@@ -1,21 +1,21 @@
 {
-  "name": "styles",
+  "name": "api",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "libs/styles/src",
+  "sourceRoot": "libs/api/src",
   "projectType": "library",
   "targets": {
     "build": {
       "executor": "@nx/vite:build",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/libs/styles"
+        "outputPath": "dist/libs/api"
       }
     },
     "lint": {
       "executor": "@nx/linter:eslint",
       "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": ["libs/styles/**/*.ts", "libs/styles/package.json"]
+        "lintFilePatterns": ["libs/api/**/*.ts", "libs/api/package.json"]
       }
     }
   },

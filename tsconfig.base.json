@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@todo-app/api": ["libs/api/src/index.ts"],
       "@todo-app/styles": ["libs/styles/src/index.ts"]
     }
   },
